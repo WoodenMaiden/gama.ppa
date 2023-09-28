@@ -3,7 +3,7 @@
 This action creates a GitHub Pages site using Jekyll and CloudFlare Pages.
 It is triggered by either a `workflow_dispatch` or a `workflow_call` event, both with the `tag` input referring to the tag attached to the release you wish to publish.
 
-# Latest packages
+## Latest packages 🟢
 
 To see how to install these packages on your system, head over to the [ppa web page](https://ppa.gama-platform.org).
 
@@ -12,7 +12,20 @@ To see how to install these packages on your system, head over to the [ppa web p
 
 
 
-# Setup instructions
+
+
+
+## Pre-release/alpha packages ⚠️
+
+> [!IMPORTANT]
+> The following packages are alpha and thus not recommended.
+- gama-platform-alpha - [GAMA_1.9.3_Linux_09.27.23_b08f9cea.deb](https://ppa.gama-platform.org/GAMA_1.9.3_Linux_09.27.23_b08f9cea.deb.html)
+- gama-platform-jdk-alpha - [GAMA_1.9.3_Linux_with_JDK_09.27.23_b08f9cea.deb](https://ppa.gama-platform.org/GAMA_1.9.3_Linux_with_JDK_09.27.23_b08f9cea.deb.html)
+
+
+- - -
+
+# Instructions to host this PPA
 
 - Go to your CloudFlare dashboard
 - Click on `Workers & Pages`, then `Pages` and `Connect to git`
